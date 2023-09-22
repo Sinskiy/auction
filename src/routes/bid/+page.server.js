@@ -6,7 +6,13 @@ export async function load() {
         .select('price, name')
         .order('price', { ascending: false })
         .limit(1)
-    return { price: data[0].price, name: data[0].name }
+
+    if (!data.length) {
+        return { price: 0.00, name: 'none' }
+    }
+    else {
+        return { price: data[0].price, name: data[0].name }
+    }
 }
 
 export const actions = {
