@@ -1,6 +1,6 @@
 <h1 class="flex justify-center text-rose-200 text-base font-extrabold sm:text-2xl ">AUCTION</h1>
 <div class="h-[75%] flex justify-center">
-    <img class="max-w-[50%] hover:drop-shadow-[0_0_128px_rgb(127_29_29/0.5)] transition-all object-scale-down" src="bowtie.png" alt="a red bow tie">
+    <img class="max-w-[50%] hover:drop-shadow-[0_0_128px_rgb(127_29_29/0.5)] transition-all object-scale-down" src="bowtie.webp" alt="a red bow tie">
 </div>
 
 <div class="flex justify-center gap-8 text-rose-200 text-base sm:text-2xl lg:text-3xl">
